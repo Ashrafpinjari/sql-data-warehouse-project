@@ -127,7 +127,9 @@ Deliver insight-generating SQL queries & dashboards related to:
 
 These enable data-driven decision-making for business teams.
 
-🗂️ Repository Structure 
+ 📁 **Repository Structure**
+
+```
 data-warehouse-project/
 │
 ├── datasets/                       # Raw datasets used for the project (ERP and CRM data)
@@ -148,6 +150,8 @@ data-warehouse-project/
 │
 ├── README.md                       # Project overview and instructions
 └── LICENSE                         # License information for the repository
+```
+
 
 
 
