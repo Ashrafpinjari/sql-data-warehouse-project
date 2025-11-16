@@ -5,23 +5,23 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🏛️ Architecture Overview — Medallion Architecture
+🏛️ **Architecture Overview — Medallion Architecture**
 
 This project follows the Medallion Architecture (Bronze → Silver → Gold) to ensure clean, reliable, and analytics-ready data.
 
-🥉 Bronze Layer — Raw Data
+🥉 **Bronze Layer — Raw Data**
 
 Stores raw data as-is from source systems.
 
 Ingested from CSV files into SQL Server (ERP & CRM systems).
 
-🥈 Silver Layer — Cleansed & Standardized
+🥈 **Silver Layer — Cleansed & Standardized**
 
 Data cleansing (null handling, deduplication, format alignment).
 
 Standardization + normalization for consistent analytical use.
 
-🥇 Gold Layer — Business-Ready
+🥇 **Gold Layer — Business-Ready**
 
 Final curated tables in Star Schema format.
 
@@ -31,15 +31,15 @@ Supports BI dashboards and advanced SQL reporting.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📦 Project Overview
+📦 **Project Overview**
 
 This project demonstrates:
 
-🔧 1. Data Architecture
+🔧 1. **Data Architecture**
 
 Design & implementation of a modern data warehouse using SQL Server + Medallion layers.
 
-⚙️ 2. ETL Pipelines
+⚙️ 2. **ETL Pipelines**
 
 Build ETL processes to:
 
@@ -49,7 +49,7 @@ Transform data across layers
 
 Load into dimensional models
 
-🧩 3. Data Modeling
+🧩 3. **Data Modeling**
 
 Creation of:
 
@@ -57,7 +57,7 @@ Fact tables (Sales, Orders, Transactions)
 
 Dimension tables (Customer, Product, Calendar, Region, SalesPerson)
 
-📊 4. Analytics & Reporting
+📊 4. **Analytics & Reporting**
 
 SQL-based insights such as:
 
@@ -71,7 +71,7 @@ Top-performing categories, regions, and sales reps
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🎯 Skills Demonstrated
+🎯 **Skills Demonstrated**
 
 This project is suitable for showcasing expertise in:
 
@@ -91,9 +91,9 @@ This project is suitable for showcasing expertise in:
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🚀 Project Requirements
+🚀 **Project Requirements**
 
-🔨 Part 1: Data Engineering — Data Warehouse
+🔨 **Part 1: Data Engineering — Data Warehouse**
 🎯 Objective
 
 Build a SQL Server–based modern data warehouse consolidating sales data for analytics.
@@ -110,7 +110,7 @@ Scope: Latest dataset only (no SCD/historical tracking)
 
 Deliverable: Fully documented data model + ERD
 
-📊 Part 2: Data Analytics — Reporting
+📊 **Part 2: Data Analytics — Reporting**
 🎯 Objective
 
 Deliver insight-generating SQL queries & dashboards related to:
