@@ -1,6 +1,8 @@
-🚀 Data Warehouse & Analytics Project
+🚀 **Data Warehouse & Analytics Project*****
 
-A complete end-to-end Data Engineering + Analytics solution demonstrating modern data warehouse design, ETL pipelines, data modeling, and BI reporting using industry best practices.
+Welcome to the Data Warehouse and Analytics Project repository! 🚀
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🏛️ Architecture Overview — Medallion Architecture
 
@@ -25,6 +27,8 @@ Final curated tables in Star Schema format.
 Contains Fact and Dimension tables for analytics.
 
 Supports BI dashboards and advanced SQL reporting.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📦 Project Overview
 
@@ -64,6 +68,8 @@ Monthly, quarterly, yearly sales trends
 
 Top-performing categories, regions, and sales reps
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🎯 Skills Demonstrated
 
 This project is suitable for showcasing expertise in:
@@ -82,7 +88,10 @@ This project is suitable for showcasing expertise in:
 
 🛢️ Data Architecture
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🚀 Project Requirements
+
 🔨 Part 1: Data Engineering — Data Warehouse
 🎯 Objective
 
@@ -117,30 +126,31 @@ Deliver insight-generating SQL queries & dashboards related to:
 
 These enable data-driven decision-making for business teams.
 
-🗂️ Repository Structure (Suggested)
-📁 data-warehouse-project
+🗂️ Repository Structure 
+data-warehouse-project/
 │
-├── 📂 data
-│   ├── erp_source.csv
-│   └── crm_source.csv
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-├── 📂 etl
-│   ├── bronze_load.sql
-│   ├── silver_cleaning.sql
-│   └── gold_star_schema.sql
+├── docs/                               # Project documentation and architecture details
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_layers.pdf                 # Detailed explanation of each layer
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
-├── 📂 models
-│   ├── fact_sales.sql
-│   ├── dim_customer.sql
-│   ├── dim_product.sql
-│   └── data_model_diagram.png
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
 │
-├── 📂 analytics
-│   ├── sales_insights.sql
-│   ├── customer_analysis.sql
-│   └── product_performance.sql
+├── tests/                              # Test scripts and quality files
+|    ├── quality_check_silver.sql        # Test script for silver layer
+|    ├── quality_check_silver.sql        # Test script for gold layer
+|
 │
-└── 📄 README.md
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📘 Documentation
 
