@@ -1,53 +1,157 @@
-Data Warehouse and Analytics Project
+🚀 Data Warehouse & Analytics Project
 
-Welcome to the Data Warehouse and Analytics Project repository! 🚀
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+A complete end-to-end Data Engineering + Analytics solution demonstrating modern data warehouse design, ETL pipelines, data modeling, and BI reporting using industry best practices.
 
-Data Architecture
-The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
+🏛️ Architecture Overview — Medallion Architecture
 
-1.Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2.Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3.Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+This project follows the Medallion Architecture (Bronze → Silver → Gold) to ensure clean, reliable, and analytics-ready data.
 
-Project Overview
+🥉 Bronze Layer — Raw Data
 
-This project involves:
+Stores raw data as-is from source systems.
 
-1.Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
-2.ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
-3.Data Modeling: Developing fact and dimension tables optimized for analytical queries.
-4.Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
+Ingested from CSV files into SQL Server (ERP & CRM systems).
 
-This repository is an excellent resource for professionals and students looking to showcase expertise in:
+🥈 Silver Layer — Cleansed & Standardized
 
-SQL Development
-Data Architect
-Data Engineering
-ETL Pipeline Developer
-Data Modeling
-Data Analytics
+Data cleansing (null handling, deduplication, format alignment).
+
+Standardization + normalization for consistent analytical use.
+
+🥇 Gold Layer — Business-Ready
+
+Final curated tables in Star Schema format.
+
+Contains Fact and Dimension tables for analytics.
+
+Supports BI dashboards and advanced SQL reporting.
+
+📦 Project Overview
+
+This project demonstrates:
+
+🔧 1. Data Architecture
+
+Design & implementation of a modern data warehouse using SQL Server + Medallion layers.
+
+⚙️ 2. ETL Pipelines
+
+Build ETL processes to:
+
+Extract from CSV files
+
+Transform data across layers
+
+Load into dimensional models
+
+🧩 3. Data Modeling
+
+Creation of:
+
+Fact tables (Sales, Orders, Transactions)
+
+Dimension tables (Customer, Product, Calendar, Region, SalesPerson)
+
+📊 4. Analytics & Reporting
+
+SQL-based insights such as:
+
+Customer buying patterns
+
+Product sales performance
+
+Monthly, quarterly, yearly sales trends
+
+Top-performing categories, regions, and sales reps
+
+🎯 Skills Demonstrated
+
+This project is suitable for showcasing expertise in:
+
+🛠️ SQL Development
+
+🚀 Data Engineering
+
+🔄 ETL Pipeline Design
+
+🧱 Data Modeling (Star Schema)
+
+🧹 Data Cleansing & Quality
+
+📈 Data Analytics & BI
+
+🛢️ Data Architecture
 
 🚀 Project Requirements
-Building the Data Warehouse (Data Engineering)
-Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+🔨 Part 1: Data Engineering — Data Warehouse
+🎯 Objective
 
-Specifications
-Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
-Data Quality: Cleanse and resolve data quality issues prior to analysis.
-Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
-Scope: Focus on the latest dataset only; historization of data is not required.
-Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+Build a SQL Server–based modern data warehouse consolidating sales data for analytics.
 
-BI: Analytics & Reporting (Data Analysis)
-Objective
-Develop SQL-based analytics to deliver detailed insights into:
+📌 Specifications
 
-Customer Behavior
-Product Performance
-Sales Trends
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+Data Sources: ERP + CRM (CSV files)
 
+Data Quality: Clean & validate data before loading
 
+Integration: Merge both systems into a unified analytical model
 
+Scope: Latest dataset only (no SCD/historical tracking)
+
+Deliverable: Fully documented data model + ERD
+
+📊 Part 2: Data Analytics — Reporting
+🎯 Objective
+
+Deliver insight-generating SQL queries & dashboards related to:
+
+👥 Customer behavior
+
+📦 Product performance
+
+💰 Sales trends
+
+🌎 Regional sales
+
+📈 Key business metrics
+
+These enable data-driven decision-making for business teams.
+
+🗂️ Repository Structure (Suggested)
+📁 data-warehouse-project
+│
+├── 📂 data
+│   ├── erp_source.csv
+│   └── crm_source.csv
+│
+├── 📂 etl
+│   ├── bronze_load.sql
+│   ├── silver_cleaning.sql
+│   └── gold_star_schema.sql
+│
+├── 📂 models
+│   ├── fact_sales.sql
+│   ├── dim_customer.sql
+│   ├── dim_product.sql
+│   └── data_model_diagram.png
+│
+├── 📂 analytics
+│   ├── sales_insights.sql
+│   ├── customer_analysis.sql
+│   └── product_performance.sql
+│
+└── 📄 README.md
+
+📘 Documentation
+
+In this repository you will find:
+
+🔹 ERD (Entity Relationship Diagram)
+
+🔹 Star schema explanation
+
+🔹 Data flow diagrams
+
+🔹 Business rules & transformation logic
+
+🔹 SQL scripts for each layer
